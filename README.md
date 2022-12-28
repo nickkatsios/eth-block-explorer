@@ -1,5 +1,6 @@
 # eth-block-explorer
 
+Created for the purposes of Alchemy University Eth Dev Bootcamp week 3 excersise
 ## Project setup
 ```
 npm install
