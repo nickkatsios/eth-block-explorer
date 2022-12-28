@@ -9,7 +9,7 @@
         </tr>
     </thead>
   <tbody>
-    <tr v-for="block in blocks" :key="block.hash">
+    <tr v-for="block in blocks" :key="block.hash" @click="searchBlock(block.number)">
         <td>{{ block.number }}</td>
         <td>{{ block.timestamp }}</td>
         <td>{{ block.transactions.length }}</td>
@@ -21,6 +21,7 @@
 
 <script>
 import { Alchemy, Network } from 'alchemy-sdk';
+import { on } from 'events';
 
 const settings = {
     apiKey: process.env.VUE_APP_ALCHEMY_API_KEY,
@@ -35,6 +36,11 @@ export default {
             blocks: [],
         }
     },
+    methods: {
+    searchBlock(blockNum) {
+      this.$router.push('./block/' + blockNum)
+    }
+  },
     async created() {
         for (let i = 0 ; i < 10 ; i ++) {
             this.blockNum = await alchemy.core.getBlockNumber() - i;

@@ -28,21 +28,21 @@
     <router-view/> 
   </div>
   
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark site-footer">
-  <p class="col-md-4 mb-0 text-muted">© 2022 Eth Block Explorer, Inc</p>
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark site-footer fixed-bottom w-100">
+    <p class="col-md-4 mb-0 text-muted">© 2022 Eth Block Explorer, Inc</p>
 
-  <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-    <svg xmlns="http://www.w3.org/2000/svg" height="40" width="80" viewBox="-161.97 -439.65 1403.74 2637.9"><path fill="#8A92B2" d="M539.7 650.3V0L0 895.6z"/><path fill="#62688F" d="M539.7 1214.7V650.3L0 895.6zm0-564.4l539.8 245.3L539.7 0z"/><path fill="#454A75" d="M539.7 650.3v564.4l539.8-319.1z"/><path fill="#8A92B2" d="M539.7 1316.9L0 998l539.7 760.6z"/><path fill="#62688F" d="M1079.8 998l-540.1 318.9v441.7z"/></svg>
-  </a>
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40" width="80" viewBox="-161.97 -439.65 1403.74 2637.9"><path fill="#8A92B2" d="M539.7 650.3V0L0 895.6z"/><path fill="#62688F" d="M539.7 1214.7V650.3L0 895.6zm0-564.4l539.8 245.3L539.7 0z"/><path fill="#454A75" d="M539.7 650.3v564.4l539.8-319.1z"/><path fill="#8A92B2" d="M539.7 1316.9L0 998l539.7 760.6z"/><path fill="#62688F" d="M1079.8 998l-540.1 318.9v441.7z"/></svg>
+    </a>
 
-  <ul class="nav col-md-4 justify-content-end">
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-  </ul>
-</footer>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    </footer>
 </template>
 
 

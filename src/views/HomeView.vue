@@ -14,6 +14,7 @@ export default {
   name: 'HomeView',
   components: {
     BlockTable
-  }
+  },
+
 }
 </script>
